@@ -1,4 +1,6 @@
 /*block 1*/
+
+
 :root {
   /*Fonts*/
   --main-font: "Roboto";
@@ -36,6 +38,7 @@
   overflow: hidden;
 }
 
+/*block 2*/
 body {
   font-family: var(--main-font);
   font-weight: 400;
@@ -128,6 +131,7 @@ img {
   margin-bottom: 50px;
 }
 
+/*block3*/
 .hero__button {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -445,6 +449,7 @@ img {
   fill: var(--main-bg-btn-cl);
 }
 
+/* block 4 */
 .header {
   font-weight: 500;
   line-height: 1.1428571429;
