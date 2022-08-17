@@ -1,15 +1,17 @@
-:root {
-  /*Fonts*/
+/*:root {
+
+  /*Fonts
   --main-font: 'Roboto';
   --secondary-font: 'Raleway';
-  /*Text colors*/
+
+  /*Text colors
   --main-txt-cl: #757575;
   --black-txt-cl: #212121;
   --white-txt-cl: #ffffff;
   --accent-txt-cl: #2196f3;
   --icons-cl: #afb1b8;
 
-  /*Bg colors*/
+  /*Bg colors
   --dark-bg-cl: #2f303a;
   --grey-bg-cl: #f5f4fa;
   --main-bg-btn-cl: #2196f3;
@@ -17,12 +19,14 @@
   --white-bg-cl: #ffffff;
   --footer-icons-bg-cl: rgba(255, 255, 255, 0.1);
 
-  /*Others*/
+  /*Others
   --gap: 30px;
   --item: 4;
   --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
+}*/
+
+/*
 body {
   font-family: var(--main-font);
   font-weight: 400;
@@ -35,8 +39,9 @@ body {
 .no-scroll {
   overflow: hidden;
 }
+*/
 
-/*Частичный ресет браузера start*/
+/*Частичный ресет браузера start
 a {
   text-decoration: none;
   color: currentColor;
@@ -64,7 +69,6 @@ img {
   height: auto;
 }
 
-/*Частичный ресет браузера end*/
 .link {
   text-decoration: none;
 }
@@ -73,6 +77,10 @@ img {
   list-style: none;
 }
 
+/*Частичный ресет браузера end*/
+
+
+/*
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -85,7 +93,11 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+*/
 
+
+
+/*
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -93,12 +105,17 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+*/
 
+
+/*
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+*/
 
+/*
 .card-set {
   display: flex;
   flex-wrap: wrap;
@@ -108,14 +125,15 @@ img {
 .card-item {
   flex-basis: calc((100% - (var(--item) - 1) * var(--gap)) / var(--item));
 }
+*/
 
-.item-title {
+/*.item-title {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  
+
 }
 
 .section-title {
@@ -126,6 +144,7 @@ img {
   color: var(--black-txt-cl);
   margin-bottom: 50px;
 }
+*/
 
 /*header*/
 
@@ -136,7 +155,7 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-.main-nav {
+.header-nav {
   display: flex;
   align-items: center;
 }
@@ -608,9 +627,6 @@ img {
   --item: 3;
 }
 
-.portfolio__item {
-}
-
 .portfolio__link {
   display: block;
   transition: box-shadow var(--animation);
@@ -776,9 +792,6 @@ img {
   color: var(--black-txt-cl);
 }
 
-.form__group {
-}
-
 .form__text {
   display: block;
   text-align: left;
@@ -843,6 +856,10 @@ img {
   resize: none;
   margin-bottom: 20px;
   height: 120px;
+}
+
+.form__textarea::placeholder {
+  color: rgba(117, 117, 117, 0.5);
 }
 
 .form__textarea:hover,

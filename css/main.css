@@ -1,0 +1,129 @@
+/*block 1*/
+:root {
+  /*Fonts*/
+  --main-font: "Roboto";
+  --secondary-font: "Raleway";
+  /*Text colors*/
+  --main-txt-cl: #757575;
+  --black-txt-cl: #212121;
+  --white-txt-cl: #ffffff;
+  --accent-txt-cl: #2196f3;
+  --icons-cl: #afb1b8;
+  /*Bg colors*/
+  --dark-bg-cl: #2f303a;
+  --grey-bg-cl: #f5f4fa;
+  --main-bg-btn-cl: #2196f3;
+  --bg-btn-cl: #188ce8;
+  --white-bg-cl: #ffffff;
+  --footer-icons-bg-cl: rgba(255, 255, 255, 0.1);
+  /*Others*/
+  --gap: 30px;
+  --item: 4;
+  --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7142857143;
+  letter-spacing: 0.03em;
+  color: var(--main-txt-cl);
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.card-set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: var(--gap);
+}
+
+.card-item {
+  -ms-flex-preferred-size: calc((100% - (var(--item) - 1) * var(--gap)) / var(--item));
+      flex-basis: calc((100% - (var(--item) - 1) * var(--gap)) / var(--item));
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1428571429;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1666666667;
+  text-align: center;
+  color: var(--black-txt-cl);
+  margin-bottom: 50px;
+}/*# sourceMappingURL=main.css.map */
