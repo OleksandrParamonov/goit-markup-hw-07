@@ -7,11 +7,28 @@
 @import './base/reset';
 
 //components styles
-@import './components/buttons';
 @import './components/card-set';
 @import './components/container';
 @import './components/section';
 @import './components/titles';
+@import './components/buttons';
+@import './components/form-footer';
+@import './components/backdrop';
+@import './components/form-modal';
 
 //layout styles
 @import './layout/header';
+@import './layout/logo';
+@import './layout/nav';
+@import './layout/contact';
+@import './layout/hero';
+@import './layout/adventages';
+@import './layout/work';
+@import './layout/command';
+@import './layout/social';
+@import './layout/customers';
+@import './layout/footer';
+@import './layout/join';
+@import './layout/projects';
+@import './layout/portfolio';
+
